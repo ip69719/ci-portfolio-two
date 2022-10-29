@@ -1,0 +1,8 @@
+/* -------------------------- Global style */
+
+/*Remove default auto margin and auto padding*/
+*{
+    margin:0;
+    padding:0;
+    border:0;
+}
