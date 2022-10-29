@@ -1,6 +1,6 @@
 /* -------------------------- Global style */
 
-/*Remove default auto margin and auto padding*/
+/*Remove default auto margin, padding and border*/
 *{
     margin:0;
     padding:0;
