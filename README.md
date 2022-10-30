@@ -58,4 +58,6 @@
 
 ### Code
 
+* Used [Code Explained](https://www.youtube.com/watch?v=49pYIMygIcU&t=1744s) tutorial as a reference to implement the project idea.
+
 ### Acknowledgements
