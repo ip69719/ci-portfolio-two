@@ -18,6 +18,10 @@ let questions = [
 ]
 
 
+//Declare variables
+let currentQuestion = 0;
+
+
 /**
  * Function to render question
  */
@@ -25,6 +29,16 @@ function displayQuestion() {
     // display car logo image
     let questionImg = document.getElementById('question-img');
     questionImg.innerHTML = "<img src='assets/images/peugeot-logo.png'>";
+
+    //display alternative answers
+    let answerOptionA = document.getElementById("answerOptionA");
+    answerOptionA.innerHTML = questions[currentQuestion].answerOptionA;
+
+    let answerOptionB = document.getElementById("answerOptionB");
+    answerOptionB.innerHTML = questions[currentQuestion].answerOptionB;
+
+    let answerOptionC = document.getElementById("answerOptionC");
+    answerOptionC.innerHTML = questions[currentQuestion].answerOptionC;
 }
 
 displayQuestion()
