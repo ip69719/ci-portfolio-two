@@ -42,3 +42,15 @@ function displayQuestion() {
 }
 
 displayQuestion()
+
+
+/**
+ * Function to check user answer
+ */
+function checkAnswer(userAnswer) {
+    if (userAnswer == questions[currentQuestion].correct){
+        alert("Answer correct");
+    } else {
+        alert("Wrong answer");
+    }
+}
