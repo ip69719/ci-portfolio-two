@@ -13,6 +13,13 @@ body {
 
 /* --------------------------- Game layout */
 
+.game-area {
+    border: 1px solid red;
+    width: 70vw;
+    height: 80vh;
+    margin: auto;
+}
+
 .flex-container {
     display: flex;
     justify-content: center;
