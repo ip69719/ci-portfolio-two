@@ -8,6 +8,7 @@
 }
 
 body {
+    color: white;
     font-size: 100%;
 }
 
@@ -20,6 +21,7 @@ h2 {
 /* --------------------------- Game layout */
 
 .game-area {
+    background-color: black;
     border: 1px solid red;
     width: 70vw;
     height: 80vh;
