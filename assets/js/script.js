@@ -33,7 +33,7 @@ let lastQuestion = questions.length - 1;
 function displayQuestion() {
     // display car logo image
     let questionImg = document.getElementById('question-img');
-    questionImg.innerHTML = "<img src='assets/images/peugeot-logo.png'>";
+    questionImg.innerHTML = "<img src="+ questions[currentQuestion].questionImg +">";
 
     //display alternative answers
     let answerOptionA = document.getElementById("answerOptionA");
