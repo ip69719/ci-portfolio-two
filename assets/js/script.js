@@ -18,3 +18,15 @@ let questions = [
         ]
     }
 ]
+
+
+/**
+ * Function to render question
+ */
+function displayQuestion() {
+    // display car logo image
+    let questionImg = document.getElementById('question-img');
+    questionImg.innerHTML = "<img src='assets/images/peugeot-logo.png'>";
+}
+
+displayQuestion()
