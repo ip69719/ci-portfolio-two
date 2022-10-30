@@ -15,6 +15,13 @@ let questions = [
         answerOptionC: 'wiesmann',
         correct: 'answerOptionC'
     }
+    {
+        questionImg: 'assets/images/wiesmann-logo.png',
+        answerOptionA: 'vauxhall-logo',
+        answerOptionB: 'subaru',
+        answerOptionC: 'audi',
+        correct: 'answerOptionC'
+    }
 ]
 
 
