@@ -19,7 +19,12 @@ let questions = [
 
 
 //Declare variables
+
+//to keep track of current question
 let currentQuestion = 0;
+
+//to calculate total number of questions
+let lastQuestion = questions.length - 1;
 
 
 /**
@@ -52,5 +57,18 @@ function checkAnswer(userAnswer) {
         alert("Answer correct");
     } else {
         alert("Wrong answer");
+    }
+    nextQuestion() 
+}
+
+/**
+ * Function to render next question
+ */
+function nextQuestion() {
+    if(currentQuestion < lastQuestion) {
+        currentQuestion++;
+        displayQuestion();
+    } else {
+        alert("End of quiz")
     }
 }
