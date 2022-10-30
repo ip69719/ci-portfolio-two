@@ -10,3 +10,16 @@
 body {
     font-size: 100%;
 }
+
+/* --------------------------- Game layout */
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-item-game {
+    flex-basis: 100%;
+    text-align: center;
+}
