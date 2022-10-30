@@ -12,8 +12,8 @@ let questions = [
         questionImg: 'assets/images/wiesmann-logo.png',
         answerOptionA: 'seat',
         answerOptionB: 'honda',
-        answerOptionC: 'tesla',
-        correct: 'wiesmann'
+        answerOptionC: 'wiesmann',
+        correct: 'answerOptionC'
     }
 ]
 
