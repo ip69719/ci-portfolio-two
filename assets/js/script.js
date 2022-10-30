@@ -23,6 +23,9 @@ let questions = [
 //to keep track of current question
 let currentQuestion = 0;
 
+//to keep track of the score
+let score = 0;
+
 //to calculate total number of questions
 let lastQuestion = questions.length - 1;
 
@@ -55,6 +58,7 @@ displayQuestion()
 function checkAnswer(userAnswer) {
     if (userAnswer == questions[currentQuestion].correct){
         alert("Answer correct");
+        score++;
     } else {
         alert("Wrong answer");
     }
@@ -69,6 +73,16 @@ function nextQuestion() {
         currentQuestion++;
         displayQuestion();
     } else {
-        alert("End of quiz")
+        alert("End of quiz");
+        displayResults();
     }
+}
+
+
+/**
+ * Function to display results
+ */
+function displayResults() {
+    let userScore = document.getElementById("user-score");
+    userScore.innerHTML = score;
 }
