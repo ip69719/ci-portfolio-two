@@ -49,6 +49,31 @@
 
 ## Deployment
 
+The project was deployed to GitHub Pages using the following steps:
+
+1. Log in to GitHub and locate the repository you want to deploy [GitHub Repository]().
+
+1. In the menu located at the top of this section, click on the 'Settings' icon.
+
+    ![]()
+
+1. Click on the Pages link on the left menu bar.
+
+    ![]()
+
+1. Locate the Build and deployment section on the right. Under "Branch", click the dropdown and select "main" Branch and "/root" folder and then save.
+
+    ![]()
+
+1. Return to your repository's main page, locate Environments and click on github-pages pages next to the green Active button.
+
+    ![]()
+
+1. Click on View Deployment on the right hand side.
+
+    ![]()
+
+1. The resulting page that comes up is your [website]()
 
 ## Credits
 
