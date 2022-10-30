@@ -1,6 +1,6 @@
 # Portfolio two
 
-[Link to the live project]()
+[Link to the live project](https://ip69719.github.io/ci-portfolio-two/)
 
 ## Project Overview
 
@@ -73,7 +73,7 @@ The project was deployed to GitHub Pages using the following steps:
 
     ![]()
 
-1. The resulting page that comes up is your [website]()
+1. The resulting page that comes up is your [website](https://ip69719.github.io/ci-portfolio-two/)
 
 ## Credits
 
