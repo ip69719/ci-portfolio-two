@@ -29,6 +29,10 @@
 
 ### Languages used
 
+* [HTML5](https://en.wikipedia.org/wiki/HTML5)
+* [CSS3](https://en.wikipedia.org/wiki/CSS)
+* [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
+
 ### Frameworks, Libraries & Programs Used
 
 
