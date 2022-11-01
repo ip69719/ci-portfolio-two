@@ -8,65 +8,62 @@
     <title>Document</title>
 </head>
 <body>
-<main>
-    <section>landing page
-        <h1>welcome</h1>
-        <div>welcome message</div>
-        <div>main image</div>
-        <div>
-            <div>instructions button</div>
-            <div>start game button</div>
-        </div>
-    </section>
-    <section>
-        <div>score</div>
-
-        <!-- game block starts here -->
-        <div class="game-area">
-                <h2>What car company logo is this?</h2>
-            <div class="flex-container">
-                <div id="question-img" class="flex-item-game"></div>
-                <div class="flex-item-game">
-                    <div class="answer-area">
-                        <div id="answerOptionA" class="answer-option" onclick="checkAnswer('answerOptionA')"></div>
-                        <div id="answerOptionB" class="answer-option" onclick="checkAnswer('answerOptionB')"></div>
-                        <div id="answerOptionC" class="answer-option" onclick="checkAnswer('answerOptionC')"></div>
+    <main>
+        <section>landing page
+            <h1>welcome</h1>
+            <div>welcome message</div>
+            <div>main image</div>
+            <div>
+                <div>instructions button</div>
+                <div>start game button</div>
+            </div>
+        </section>
+        <section>
+            <div>score</div>
+            <!-- game section starts here -->
+            <div class="game-area">
+                    <h2>What car company logo is this?</h2>
+                <div class="flex-container">
+                    <div id="question-img" class="flex-item-game"></div>
+                    <div class="flex-item-game">
+                        <div class="answer-area">
+                            <div id="answerOptionA" class="answer-option" onclick="checkAnswer('answerOptionA')"></div>
+                            <div id="answerOptionB" class="answer-option" onclick="checkAnswer('answerOptionB')"></div>
+                            <div id="answerOptionC" class="answer-option" onclick="checkAnswer('answerOptionC')"></div>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <!--
-            Learned how to create a Modal Box with CSS and JavaScript and adopted code from this W3Schools
-            (https://www.w3schools.com/howto/howto_css_modals.asp) tutorial
-        -->
-        <div id="correctModal" class="modal">
-            <!-- Modal content -->
-            <div class="modal-content">
-                <span class="close">&times;</span>
-                <p>Correct!</p>
+            <!--
+                Learned how to create a Modal Box with CSS and JavaScript and adopted code from this W3Schools
+                (https://www.w3schools.com/howto/howto_css_modals.asp) tutorial
+            -->
+            <div id="correctModal" class="modal">
+                <!-- Modal content -->
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <p>Correct!</p>
+                </div>
             </div>
-        </div>
 
-        <div id="wrongModal" class="modal">
-            <!-- Modal content -->
-            <div class="modal-content">
-                <span class="close">&times;</span>
-                <p>Correct Answer is <span id="correctAnswerModal"></span></p>
+            <div id="wrongModal" class="modal">
+                <!-- Modal content -->
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <p>Correct Answer is <span id="correctAnswerModal"></span></p>
+                </div>
             </div>
-        </div>
-
+        </section>
         <!-- end of game block -->
 
-    </section>
-
-    <!-- results section starts here -->
-    <section>
-        <p>You answered <span id="user-score"></span> out of <span>10</span> correctly</p>
-        <div class="btn">replay</div>
-        <div class="btn">quit</div>
-    </section>
-    <!-- end of results section -->
-</main>
+        <!-- results section starts here -->
+        <section>
+            <p>You answered <span id="user-score"></span> out of <span>10</span> correctly</p>
+            <div class="btn">replay</div>
+            <div class="btn">quit</div>
+        </section>
+        <!-- end of results section -->
+    </main>
     <script src="assets/js/questions.js"></script>
     <script src="assets/js/script.js"></script>
 </body>
