@@ -41,6 +41,7 @@ displayQuestion()
 function checkAnswer(userAnswer) {
     if (userAnswer == questions[currentQuestion].correct){
         alert("Answer correct");
+        showModalCorrectAnswer();
         score++;
     } else {
         alert("Wrong answer");
@@ -70,6 +71,14 @@ function displayResults() {
     let userScore = document.getElementById("user-score");
     userScore.innerHTML = score;
 }
+
+
+/**
+ * Function to display modal box if user answer is wrong.
+ */
+ function showModalCorrectAnswer() {
+    correctAnswerModal.style.display = "block";
+ }
 
 
 /**
