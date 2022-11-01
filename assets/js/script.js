@@ -9,6 +9,9 @@ let score = 0;
 //to calculate total number of questions
 let lastQuestion = questions.length - 1;
 
+//get elements
+let wrongAnswerModal = document.getElementById('wrongAnswerModal');
+let correctAnswerModal = document.getElementById('correctAnswerModal');
 
 /**
  * Function to render question
@@ -41,6 +44,7 @@ function checkAnswer(userAnswer) {
         score++;
     } else {
         alert("Wrong answer");
+        showModalWrongAnswer()
     }
     nextQuestion() 
 }
@@ -65,4 +69,20 @@ function nextQuestion() {
 function displayResults() {
     let userScore = document.getElementById("user-score");
     userScore.innerHTML = score;
+}
+
+
+/**
+ * Function to display modal box if user answer is wrong.
+ * displayes the correct answer to the user.
+ */
+function showModalWrongAnswer() {
+    wrongAnswerModal.style.display = "block";
+    let keys = Object.keys(questions[currentQuestion]);
+    keys.forEach((key) => {
+        if (key == questions[currentQuestion].correct) {
+            let correctAnswer= document.getElementById("correctAnswer");
+            correctAnswer.innerHTML = questions[currentQuestion][key];
+        }
+    })
 }
