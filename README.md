@@ -84,5 +84,6 @@ The project was deployed to GitHub Pages using the following steps:
 ### Code
 
 * Used [Code Explained](https://www.youtube.com/watch?v=49pYIMygIcU&t=1744s) tutorial as a reference to implement the project idea.
+* Learned how to loop through objects keys and values in Javascript from [this](https://flexiple.com/javascript/loop-through-object-javascript/) Flexiple tutorial.
 
 ### Acknowledgements
