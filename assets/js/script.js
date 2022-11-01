@@ -40,11 +40,9 @@ displayQuestion()
  */
 function checkAnswer(userAnswer) {
     if (userAnswer == questions[currentQuestion].correct){
-        alert("Answer correct");
         showModalCorrectAnswer();
         score++;
     } else {
-        alert("Wrong answer");
         showModalWrongAnswer()
     }
     nextQuestion() 
