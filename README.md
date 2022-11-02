@@ -36,6 +36,8 @@
 
 ### Frameworks, Libraries & Programs Used
 
+* [Google fonts](https://fonts.google.com/) were used to import the 'Arvo' font into the style.css file which is used on all pages throughout the project.
+
 
 ## Testing
 
@@ -82,6 +84,8 @@ The project was deployed to GitHub Pages using the following steps:
 ### Content
 
 ### Media
+
+* Images of cars were sourced from [Shutterstock](https://www.shutterstock.com/home).
 
 ### Code
 
