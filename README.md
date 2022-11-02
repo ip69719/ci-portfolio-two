@@ -16,6 +16,7 @@
 ### Design choices
 
 #### Typography
+* Arvo font was selected for strong characters and high readability.
 
 #### Images
 
