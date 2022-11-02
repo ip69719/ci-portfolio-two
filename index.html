@@ -9,16 +9,29 @@
 </head>
 <body>
     <main>
-        <section>landing page
-            <h1>welcome</h1>
-            <div>welcome message</div>
-            <div>main image</div>
-            <div>
-                <div>instructions button</div>
-                <div>start game button</div>
+        <!-- home section starts here -->
+        <section>
+            <div class="flex-container">
+                <div class="flex-item-home">
+                    <h1>Car Logo Quiz</h1>
+                    <p>How well do you know car logos?</p>
+                    <p>Take this quiz to find out!</p>
+                    <div>
+                        <p>Select preferred theme</p>
+                        <div>Theme 1</div>
+                        <div>Theme 2</div>
+                    </div>
+                    <div>
+                        <div>Start Quiz</div>
+                    </div>
+                </div>
+                <div class="flex-item-home">
+                    <img src="assets/images/main-img-dark.jpg" alt="">
+                </div>
             </div>
         </section>
-        <section>
+        <!-- end of home section -->
+        <section style = "display: none;">
             <div>score</div>
             <!-- game section starts here -->
             <div class="game-area">
@@ -57,7 +70,7 @@
         <!-- end of game block -->
 
         <!-- results section starts here -->
-        <section>
+        <section style = "display: none;">
             <p>You answered <span id="user-score"></span> out of <span>10</span> correctly</p>
             <div class="btn">replay</div>
             <div class="btn">quit</div>
