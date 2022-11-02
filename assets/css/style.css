@@ -1,7 +1,10 @@
-/* -------------------------- Global style */
+/* ----------------------------------- GLOBAL STYLE */
+
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
 
 /*Remove default auto margin, padding and border*/
-*{
+* {
     margin:0;
     padding:0;
     border:0;
@@ -10,6 +13,7 @@
 body {
     background-color: black;
     color: white;
+    font-family: 'Arvo', serif;
     font-size: 100%;
 }
 
