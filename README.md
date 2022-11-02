@@ -37,6 +37,9 @@
 ### Frameworks, Libraries & Programs Used
 
 * [Google fonts](https://fonts.google.com/) were used to import the 'Arvo' font into the style.css file which is used on all pages throughout the project.
+* [TinyPNG](https://tinypng.com/) was used to optimise images for the web.
+* [Git](https://git-scm.com/) was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+* [GitHub](https://github.com/) is used to store the projects code after being pushed from Git.
 
 
 ## Testing
