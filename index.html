@@ -12,7 +12,11 @@
         <!-- home section starts here -->
         <section>
             <div class="flex-container">
-                <div class="flex-item-home">
+                <div class="flex-item">
+                    <img src="assets/images/main-img-dark.jpg"
+                    alt="Front view of a brandless modern car on a black background">
+                </div>
+                <div class="flex-item">
                     <h1>Car Logo Quiz</h1>
                     <p>How well do you know car logos?</p>
                     <p>Take this quiz to find out!</p>
@@ -25,21 +29,17 @@
                         <div>Start Quiz</div>
                     </div>
                 </div>
-                <div class="flex-item-home">
-                    <img src="assets/images/main-img-dark.jpg"
-                    alt="Front view of a brandless modern car on a black background">
-                </div>
             </div>
         </section>
         <!-- end of home section -->
-        <section style = "display: none;">
+        <section>
             <div>score</div>
             <!-- game section starts here -->
             <div class="game-area">
                     <h2>What car company logo is this?</h2>
                 <div class="flex-container">
-                    <div id="question-img" class="flex-item-game"></div>
-                    <div class="flex-item-game">
+                    <div id="question-img" class="flex-item"></div>
+                    <div class="flex-item">
                         <div class="answer-area">
                             <div id="answerOptionA" class="answer-option" onclick="checkAnswer('answerOptionA')"></div>
                             <div id="answerOptionB" class="answer-option" onclick="checkAnswer('answerOptionB')"></div>
