@@ -67,3 +67,16 @@ h2 {
     margin: 16px 0px 16px;
     padding: 8px;
 }
+
+
+/* ---------------------------------- MEDIA QUERIES */
+
+/* flex-item can grow to occupy the available space
+   flex-item can shrink to fit the container
+   the width of flex-item is auto calculated */
+
+   @media screen and (min-width: 768px) {
+    .flex-item {
+        flex: 1;
+    }
+}
