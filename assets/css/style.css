@@ -29,7 +29,9 @@ h2 {
 
 .flex-container {
     display: flex;
+    flex-direction: row; /* default value */
     justify-content: center;
+    flex-wrap: wrap;
     align-items: center;
 }
 
