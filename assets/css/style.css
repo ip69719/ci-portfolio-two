@@ -98,16 +98,6 @@ p {
     width: 60%;
 }
 
-.answer-option {
-    border: 1px solid white;
-    border-radius: 4px;
-    font-size: 1.5rem;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    margin: 16px 0px 16px;
-    padding: 8px;
-}
-
 
 /* ---------------------------------- MEDIA QUERIES */
 
