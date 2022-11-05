@@ -44,6 +44,19 @@ h2 {
     height: 100%;
 }
 
+/* buttons */
+.btn {
+    border: 1px solid white;
+    border-radius: 4px;
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-align:center;
+    margin: 16px 0px 16px;
+    padding: 8px;
+}
+
+
 /* -------------------------- Home section */
 
 h1 {
@@ -60,6 +73,15 @@ p {
     font-size: 1.2rem;
     margin: 16px 0px 16px 0px;
 
+}
+
+.btn-wrapper {
+    display: flex;
+    margin: 0px 0px 0px 56px;
+}
+
+#btn-start {
+    color: #00B36B;
 }
 
 
