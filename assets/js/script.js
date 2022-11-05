@@ -13,9 +13,27 @@ let lastQuestion = questions.length - 1;
 let startButton = document.getElementById("btn-start");
 startButton.addEventListener("click", startQuiz);
 
+//get home section
+let homeSection = document.getElementById("home-section");
+
+//get home section
+let quizSection = document.getElementById("quiz-section");
+
 //get elements
 let wrongAnswerModal = document.getElementById('wrongAnswerModal');
 let correctAnswerModal = document.getElementById('correctAnswerModal');
+
+
+/**
+ * Called when start button is clicked, hides the home section content of the page and
+ * takes user to quiz area
+ */
+ function startQuiz(){
+    homeSection.style.display = 'none';
+    quizSection.style.display = 'block';
+    displayQuestion();
+}
+
 
 /**
  * Function to render question
