@@ -9,6 +9,10 @@ let score = 0;
 //to calculate total number of questions
 let lastQuestion = questions.length - 1;
 
+//get the start button element and add event listener to it
+let startButton = document.getElementById("btn-start");
+startButton.addEventListener("click", startQuiz);
+
 //get elements
 let wrongAnswerModal = document.getElementById('wrongAnswerModal');
 let correctAnswerModal = document.getElementById('correctAnswerModal');
