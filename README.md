@@ -96,5 +96,6 @@ The project was deployed to GitHub Pages using the following steps:
 * Used [Code Explained](https://www.youtube.com/watch?v=49pYIMygIcU&t=1744s) tutorial as a reference to implement the project idea.
 * Learned how to loop through objects keys and values in Javascript from [this](https://flexiple.com/javascript/loop-through-object-javascript/) Flexiple tutorial.
 * Learned how to create a Modal Box with CSS and JavaScript and adopted code from this [W3Schools](https://www.w3schools.com/howto/howto_css_modals.asp) tutorial.
+* The CSS code used to animate buttons was taken from [Federico Dossena's](https://fdossena.com/?p=html5cool/buttons/i.frag) site (9IDLE AMINATION: BOUNCY BOUNCY section).
 
 ### Acknowledgements
