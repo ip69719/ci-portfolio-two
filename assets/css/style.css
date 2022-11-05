@@ -98,6 +98,23 @@ p {
     width: 60%;
 }
 
+/* This CSS code to animate buttons was taken from
+Federico Dossena's (https://fdossena.com/?p=html5cool/buttons/i.frag)
+site (9IDLE AMINATION: BOUNCY BOUNCY section).*/
+.bouncy {
+    animation:bouncy 5s infinite linear;
+    position:relative;
+}
+
+@keyframes bouncy {
+    0%{top:0em}
+    40%{top:0em}
+    43%{top:-0.9em}
+    46%{top:0em}
+    48%{top:-0.4em}
+    50%{top:0em}
+    100%{top:0em;}
+}
 
 /* ---------------------------------- MEDIA QUERIES */
 
