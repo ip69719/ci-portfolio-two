@@ -126,10 +126,3 @@ site (9IDLE AMINATION: BOUNCY BOUNCY section).*/
         display: none;
     }
 }
-
-/* make home section image to appear below the text content */
-@media screen and (max-width: 768px) {
-    .flex-container {
-        flex-wrap: wrap-reverse;
-    }
-}
