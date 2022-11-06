@@ -12,7 +12,7 @@
 
 body {
     background-color: black;
-    background-image:url("/assets/images/background-dark.jpg");
+    background-image:url("images/background-dark.jpg");
     background-repeat: no-repeat;
     background-size: contain;
     background-size: cover;
