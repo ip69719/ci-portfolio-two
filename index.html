@@ -67,10 +67,21 @@
             </div>
 
             <div id="wrongAnswerModal" class="modal">
-                <!-- Modal content -->
                 <div class="modal-content">
-                    <span class="close">&times;</span>
-                    <p>Correct Answer is <span id="correctAnswer"></span></p>
+                    <!-- Modal header -->
+                    <div class="modal-header">
+                        <span class="close">&times;</span>
+                        <h3>Incorrect!</h3>
+                    </div>
+                    <!-- Modal body -->
+                    <div class="modal-body flex-container flex-container-modal">
+                        <div class="flex-item">
+                            <div id="answer-img"></div>
+                        </div>
+                        <div class="text-center">
+                            <p>Correct answer is <br><span id="correctAnswer"></span></p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
