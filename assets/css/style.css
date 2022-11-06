@@ -111,6 +111,63 @@ site (9IDLE AMINATION: BOUNCY BOUNCY section).*/
     100%{top:0em;}
 }
 
+
+
+/* ------------------------------------------ Modal */
+
+/*
+Learned how to create a Modal Box with CSS and JavaScript and adopted code from this W3Schools
+(https://www.w3schools.com/howto/howto_css_modals.asp) tutorial.
+adopted code from this example https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_modal2 */
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.modal-content {
+    position: relative;
+    background-color: #454a4f;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 70%;
+}
+
+/* The Close Button */
+.close {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modal-header {
+  padding: 2px 16px;
+  background-color: #5cb85c;
+  color: white;
+}
+
+.modal-body {padding: 2px 16px;}
+
+
 /* ---------------------------------- MEDIA QUERIES */
 
 /* flex-item can grow to occupy the available space
