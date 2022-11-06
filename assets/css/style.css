@@ -29,7 +29,7 @@ h2 {
 
 /* ------------------------------------------- MAIN */
 
-/* flex container used in more than one section of the page */
+/* flex container used in most sections of the page */
 .flex-container {
     display: flex;
     flex-direction: row; /* default value */
