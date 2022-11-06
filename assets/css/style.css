@@ -126,3 +126,14 @@ site (9IDLE AMINATION: BOUNCY BOUNCY section).*/
         display: none;
     }
 }
+
+/* hide background image and remove margin for smaller devices*/
+@media only screen and (max-width: 768px) and (min-width: 0px) {
+    body {
+        background-image:none;
+    }
+
+    .flex-container {
+        margin-left: 0%;
+    }
+}
