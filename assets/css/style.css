@@ -121,6 +121,10 @@ site (9IDLE AMINATION: BOUNCY BOUNCY section).*/
     margin-left: 0;
 }
 
+.text-center {
+    text-align: center;
+}
+
 /*
 Learned how to create a Modal Box with CSS and JavaScript and adopted code from this W3Schools
 (https://www.w3schools.com/howto/howto_css_modals.asp) tutorial.
