@@ -121,6 +121,10 @@ site (9IDLE AMINATION: BOUNCY BOUNCY section).*/
     .flex-item {
         flex: 1;
     }
+    /* make images visible on smaller devices only*/
+    .img-sm-screen {
+        display: none;
+    }
 }
 
 /* make home section image to appear below the text content */
