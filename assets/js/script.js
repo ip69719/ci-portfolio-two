@@ -105,6 +105,8 @@ function displayResults() {
  */
 function showModalWrongAnswer() {
     wrongAnswerModal.style.display = "block";
+    let answerImg = document.getElementById("answer-img");
+    answerImg.innerHTML = "<img src="+ questions[currentQuestion].questionImg +">";
     let keys = Object.keys(questions[currentQuestion]);
     keys.forEach((key) => {
         if (key == questions[currentQuestion].correct) {
