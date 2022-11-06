@@ -23,6 +23,9 @@ let quizSection = document.getElementById("quiz-section");
 let wrongAnswerModal = document.getElementById('wrongAnswerModal');
 let correctAnswerModal = document.getElementById('correctAnswerModal');
 
+// Get the <span> element that closes the modal
+let span = document.getElementsByClassName("close")[0];
+
 
 /**
  * Called when start button is clicked, hides the home section content of the page and
@@ -115,3 +118,19 @@ function showModalWrongAnswer() {
         }
     })
 }
+
+
+/* Learned how to create a Modal Box with CSS and JavaScript and adopted code from this W3Schools
+(https://www.w3schools.com/howto/howto_css_modals.asp) tutorial */
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+    wrongAnswerModal.style.display = "none";
+  }
+  
+  // When the user clicks anywhere outside of the modal, close it
+  window.onclick = function(event) {
+    if (event.target == wrongAnswerModal) {
+        wrongAnswerModal.style.display = "none";
+    }
+  }
