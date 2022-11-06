@@ -54,8 +54,6 @@ function displayQuestion() {
     answerOptionC.innerHTML = questions[currentQuestion].answerOptionC;
 }
 
-displayQuestion()
-
 
 /**
  * Function to check user answer
@@ -94,7 +92,7 @@ function displayResults() {
 
 
 /**
- * Function to display modal box if user answer is wrong.
+ * Function to display modal box if user answer is correct.
  */
  function showModalCorrectAnswer() {
     correctAnswerModal.style.display = "block";
