@@ -34,17 +34,24 @@
 
         <!-- game section starts here -->
         <section id="quiz-section" style = "display: none;">
-            <div class="game-area">
+            <div class="flex-container">
+                <div class="flex-item">
                     <h2>What car company logo is this?</h2>
-                <div class="flex-container">
-                    <div id="question-img" class="flex-item"></div>
-                    <div class="flex-item">
-                        <div class="answer-area">
-                            <div id="answerOptionA" class="btn bouncy" onclick="checkAnswer('answerOptionA')"></div>
-                            <div id="answerOptionB" class="btn bouncy" style="animation-delay:0.07s" onclick="checkAnswer('answerOptionB')"></div>
-                            <div id="answerOptionC" class="btn bouncy" style="animation-delay:0.14s" onclick="checkAnswer('answerOptionC')"></div>
+                    <div class="flex-container">
+                        <div id="question-img" class="flex-item"></div>
+                        <div class="flex-item">
+                            <div class="answer-area">
+                                <div id="answerOptionA" class="btn bouncy" onclick="checkAnswer('answerOptionA')"></div>
+                                <div id="answerOptionB" class="btn bouncy" style="animation-delay:0.07s" onclick="checkAnswer('answerOptionB')"></div>
+                                <div id="answerOptionC" class="btn bouncy" style="animation-delay:0.14s" onclick="checkAnswer('answerOptionC')"></div>
+                            </div>
                         </div>
                     </div>
+                </div>
+                <div class="flex-item"></div>
+                <div class="flex-item img-sm-screen">
+                    <img src="assets/images/main-img-dark.jpg"
+                        alt="Front view of a brandless modern car on a black background">
                 </div>
             </div>
             <!--
