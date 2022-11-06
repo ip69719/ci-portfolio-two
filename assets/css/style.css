@@ -115,6 +115,12 @@ site (9IDLE AMINATION: BOUNCY BOUNCY section).*/
 
 /* ------------------------------------------ Modal */
 
+.flex-container-modal {
+    flex-direction: column;
+    margin-top: 0;
+    margin-left: 0;
+}
+
 /*
 Learned how to create a Modal Box with CSS and JavaScript and adopted code from this W3Schools
 (https://www.w3schools.com/howto/howto_css_modals.asp) tutorial.
