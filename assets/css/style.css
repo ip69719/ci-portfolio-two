@@ -88,12 +88,6 @@ p {
 
 /* --------------------------- Game layout */
 
-.game-area {
-    width: 70vw;
-    height: 80vh;
-    margin: auto;
-}
-
 .answer-area {
     margin: auto;
     width: 60%;
