@@ -36,6 +36,8 @@ h2 {
     justify-content: center;
     flex-wrap: wrap;
     align-items: center;
+    margin-top: 10%;
+    margin-left: 10%;
 }
 
 .flex-item {
