@@ -63,6 +63,7 @@ function displayQuestion() {
 function checkAnswer(userAnswer) {
     if (userAnswer == questions[currentQuestion].correct){
         showModal();
+        IsCorrect();
         score++;
     } else {
         showModal()
@@ -120,4 +121,21 @@ span.onclick = function() {
             correctAnswer.innerHTML = questions[currentQuestion][key];
         }
     })
+}
+
+/**
+ * Function to change the color of modal header and render message
+ * when user's answer is correct.
+ * Called when user's answer is checked against the correct answer.
+ */
+function IsCorrect() {
+
+    let modalHeader = document.getElementsByClassName("modal-header")[0];
+    modalHeader.style.backgroundColor = "#2B5F2B";
+
+    let checkAnswerModal = document.getElementById("check-answer-modal");
+    checkAnswerModal.innerHTML = "That is correct answer!";
+
+    let modalMessage = document.getElementById("modal-message");
+    modalMessage.innerHTML = "This logo is for ";
 }
