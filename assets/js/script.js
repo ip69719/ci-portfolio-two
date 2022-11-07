@@ -17,6 +17,10 @@ startButton.addEventListener("click", startQuiz);
 let btnRestart = document.getElementById("btn-restart");
 btnRestart.addEventListener("click", restartQuiz);
 
+//Get the restart button element and add event listener to it
+let btnQuit = document.getElementById("btn-quit");
+btnQuit.addEventListener("click", returnHome);
+
 //get home section
 let homeSection = document.getElementById("home-section");
 
@@ -186,4 +190,17 @@ function restartQuiz() {
     score = 0;
     resultsSection.style.display = 'none';
     startQuiz();
+}
+
+
+/**
+ * Function to reset score and take user home section when restart button is clicked.
+ */
+function returnHome() {
+    resultsSection.style.display = 'none';
+    homeSection.style.display = 'block';
+    //reset current question index
+    currentQuestion = 0;
+    //reset score
+    score = 0;
 }
