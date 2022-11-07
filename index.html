@@ -58,28 +58,22 @@
                 Learned how to create a Modal Box with CSS and JavaScript and adopted code from this W3Schools
                 (https://www.w3schools.com/howto/howto_css_modals.asp) tutorial
             -->
-            <div id="correctAnswerModal" class="modal">
-                <!-- Modal content -->
-                <div class="modal-content">
-                    <span class="close">&times;</span>
-                    <p>Correct!</p>
-                </div>
-            </div>
-
             <div id="wrongAnswerModal" class="modal">
                 <div class="modal-content">
                     <!-- Modal header -->
                     <div class="modal-header">
                         <span class="close">&times;</span>
-                        <h3>Incorrect!</h3>
+                        <h3 id="check-answer-modal"></h3>
                     </div>
                     <!-- Modal body -->
                     <div class="modal-body flex-container flex-container-modal">
                         <div class="flex-item">
                             <div id="answer-img"></div>
                         </div>
-                        <div class="text-center">
-                            <p>Correct answer is <br><span id="correctAnswer"></span></p>
+                        <div class="text-center"></p>
+                            <p id="modal-message">
+                            <br>
+                            <p id="correctAnswer"></p>
                         </div>
                     </div>
                 </div>
