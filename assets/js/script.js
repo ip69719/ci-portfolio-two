@@ -96,7 +96,6 @@ function nextQuestion() {
         currentQuestion++;
         displayQuestion();
     } else {
-        alert("End of quiz");
         displayResults();
     }
 }
