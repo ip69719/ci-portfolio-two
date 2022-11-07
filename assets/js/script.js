@@ -13,6 +13,10 @@ let lastQuestion = questions.length - 1;
 let startButton = document.getElementById("btn-start");
 startButton.addEventListener("click", startQuiz);
 
+//Get the restart button element and add event listener to it
+let btnRestart = document.getElementById("btn-restart");
+btnRestart.addEventListener("click", restartQuiz);
+
 //get home section
 let homeSection = document.getElementById("home-section");
 
@@ -167,4 +171,19 @@ function IsWrong() {
 
     let modalMessage = document.getElementById("modal-message");
     modalMessage.innerHTML = "Correct answer is ";
+}
+
+
+/**
+ * Function to reset score, hides the results section content of the page and
+ * takes user back to quiz area.
+ * Called when restart button is clicked.
+ */
+function restartQuiz() {
+    //reset current question index
+    currentQuestion = 0;
+    //reset score
+    score = 0;
+    resultsSection.style.display = 'none';
+    startQuiz();
 }
