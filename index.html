@@ -10,7 +10,7 @@
 <body>
     <main>
         <!-- home section starts here -->
-        <section id="home-section">
+        <section id="home-section" style = "display: none;">
             <div class="flex-container">
                 <div class="flex-item">
                     <div>
@@ -82,10 +82,21 @@
         <!-- end of game block -->
 
         <!-- results section starts here -->
-        <section id="results-section" style = "display: none;">
-            <p>You answered <span id="user-score"></span> out of <span>10</span> correctly</p>
-            <div class="btn">replay</div>
-            <div class="btn">quit</div>
+        <section id="results-section">
+            <div class="flex-container">
+                <div class="flex-item">
+                    <p>You answered <span id="user-score"></span> out of <span>10</span> correctly</p>
+                    <div class="btn-wrapper">
+                        <div class="btn bouncy">replay</div>
+                        <div class="btn bouncy" style="animation-delay:0.07s">quit</div>
+                    </div>
+                </div>
+                <div class="flex-item"></div>
+                <div class="flex-item img-sm-screen">
+                    <img src="assets/images/main-img-dark.jpg"
+                        alt="Front view of a brandless modern car on a black background">
+                </div>
+            </div>
         </section>
         <!-- end of results section -->
     </main>
