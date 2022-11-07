@@ -20,6 +20,7 @@ let homeSection = document.getElementById("home-section");
 let quizSection = document.getElementById("quiz-section");
 
 //get elements
+let modalFeedback = document.getElementById('modal-feedback');
 let wrongAnswerModal = document.getElementById('wrongAnswerModal');
 let correctAnswerModal = document.getElementById('correctAnswerModal');
 
@@ -107,19 +108,19 @@ function displayResults() {
 
 // When the user clicks on <span> (x), close the modal
 span.onclick = function() {
-    wrongAnswerModal.style.display = "none";
+    modalFeedback.style.display = "none";
   }
   
   // When the user clicks anywhere outside of the modal, close it
   window.onclick = function(event) {
-    if (event.target == wrongAnswerModal) {
-        wrongAnswerModal.style.display = "none";
+    if (event.target == modalFeedback) {
+        modalFeedback.style.display = "none";
     }
   }
 
 
   function showModal() {
-    wrongAnswerModal.style.display = "block";
+    modalFeedback.style.display = "block";
     let answerImg = document.getElementById("answer-img");
     answerImg.innerHTML = "<img src="+ questions[currentQuestion].questionImg +">";
     let keys = Object.keys(questions[currentQuestion]);
