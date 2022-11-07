@@ -63,10 +63,10 @@ function displayQuestion() {
  */
 function checkAnswer(userAnswer) {
     if (userAnswer == questions[currentQuestion].correct){
-        showModalCorrectAnswer();
+        showModal();
         score++;
     } else {
-        showModalWrongAnswer()
+        showModal()
     }
     nextQuestion() 
 }
@@ -102,24 +102,6 @@ function displayResults() {
  }
 
 
-/**
- * Function to display modal box if user answer is wrong.
- * displayes the correct answer to the user.
- */
-function showModalWrongAnswer() {
-    wrongAnswerModal.style.display = "block";
-    let answerImg = document.getElementById("answer-img");
-    answerImg.innerHTML = "<img src="+ questions[currentQuestion].questionImg +">";
-    let keys = Object.keys(questions[currentQuestion]);
-    keys.forEach((key) => {
-        if (key == questions[currentQuestion].correct) {
-            let correctAnswer= document.getElementById("correctAnswer");
-            correctAnswer.innerHTML = questions[currentQuestion][key];
-        }
-    })
-}
-
-
 /* Learned how to create a Modal Box with CSS and JavaScript and adopted code from this W3Schools
 (https://www.w3schools.com/howto/howto_css_modals.asp) tutorial */
 
@@ -134,3 +116,17 @@ span.onclick = function() {
         wrongAnswerModal.style.display = "none";
     }
   }
+
+
+  function showModal() {
+    wrongAnswerModal.style.display = "block";
+    let answerImg = document.getElementById("answer-img");
+    answerImg.innerHTML = "<img src="+ questions[currentQuestion].questionImg +">";
+    let keys = Object.keys(questions[currentQuestion]);
+    keys.forEach((key) => {
+        if (key == questions[currentQuestion].correct) {
+            let correctAnswer= document.getElementById("correctAnswer");
+            correctAnswer.innerHTML = questions[currentQuestion][key];
+        }
+    })
+}
