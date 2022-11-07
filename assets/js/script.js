@@ -19,10 +19,8 @@ let homeSection = document.getElementById("home-section");
 //get home section
 let quizSection = document.getElementById("quiz-section");
 
-//get elements
+//get modal
 let modalFeedback = document.getElementById('modal-feedback');
-let wrongAnswerModal = document.getElementById('wrongAnswerModal');
-let correctAnswerModal = document.getElementById('correctAnswerModal');
 
 // Get the <span> element that closes the modal
 let span = document.getElementsByClassName("close")[0];
@@ -93,14 +91,6 @@ function displayResults() {
     let userScore = document.getElementById("user-score");
     userScore.innerHTML = score;
 }
-
-
-/**
- * Function to display modal box if user answer is correct.
- */
- function showModalCorrectAnswer() {
-    correctAnswerModal.style.display = "block";
- }
 
 
 /* Learned how to create a Modal Box with CSS and JavaScript and adopted code from this W3Schools
