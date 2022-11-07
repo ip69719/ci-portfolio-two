@@ -10,7 +10,7 @@
 <body>
     <main>
         <!-- home section starts here -->
-        <section id="home-section" style = "display: none;">
+        <section id="home-section">
             <div class="flex-container">
                 <div class="flex-item">
                     <div>
@@ -82,10 +82,10 @@
         <!-- end of game block -->
 
         <!-- results section starts here -->
-        <section id="results-section">
+        <section id="results-section" style = "display: none;">
             <div class="flex-container">
                 <div class="flex-item">
-                    <p>You answered <br><span id="user-score"></span> out of <span>10</span><br> questions correctly</p>
+                    <p>You answered <br><span id="user-score"></span> out of  <span id="total-questions"></span><br>  questions correctly</p>
                     <div class="btn-wrapper">
                         <div class="btn bouncy">replay</div>
                         <div class="btn bouncy" style="animation-delay:0.07s">quit</div>

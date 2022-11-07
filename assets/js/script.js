@@ -16,14 +16,21 @@ startButton.addEventListener("click", startQuiz);
 //get home section
 let homeSection = document.getElementById("home-section");
 
-//get home section
+//get quiz section
 let quizSection = document.getElementById("quiz-section");
+
+//get results section
+let resultsSection = document.getElementById("results-section");
 
 //get modal
 let modalFeedback = document.getElementById('modal-feedback');
 
 // Get the <span> element that closes the modal
 let span = document.getElementsByClassName("close")[0];
+
+//Get total number of questions in the quiz
+let  totalQuestions = document.getElementById("total-questions");
+totalQuestions.innerHTML = questions.length;
 
 
 /**
@@ -91,6 +98,8 @@ function nextQuestion() {
  * Function to display results
  */
 function displayResults() {
+    quizSection.style.display = 'none';
+    resultsSection.style.display = 'block';
     let userScore = document.getElementById("user-score");
     userScore.innerHTML = score;
 }
