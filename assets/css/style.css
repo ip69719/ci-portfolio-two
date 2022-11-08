@@ -25,12 +25,12 @@
 }
 
 body {
-    background-color: black;
-    background-image:url("../images/background-dark.jpg");
+    background-color: var(--color-background);
+    background-image: var(--background-img);
     background-repeat: no-repeat;
     background-size: contain;
     background-size: cover;
-    color: white;
+    color: var(--color-primary);
     font-family: 'Arvo', serif;
     font-size: 100%;
 }
