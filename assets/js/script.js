@@ -1,42 +1,44 @@
-//Declare variables
+/*jshint esversion: 6 */
 
-//to keep track of current question
+// Declare variables
+
+// to keep track of current question
 let currentQuestion = 0;
 
-//to keep track of the score
+// to keep track of the score
 let score = 0;
 
-//to calculate total number of questions
+// to calculate total number of questions
 let lastQuestion = questions.length - 1;
 
-//get the start button element and add event listener to it
+// Get the start button element and add event listener to it
 let startButton = document.getElementById("btn-start");
 startButton.addEventListener("click", startQuiz);
 
-//Get the restart button element and add event listener to it
+// Get the restart button element and add event listener to it
 let btnRestart = document.getElementById("btn-restart");
 btnRestart.addEventListener("click", restartQuiz);
 
-//Get the restart button element and add event listener to it
+// Get the quit button element and add event listener to it
 let btnQuit = document.getElementById("btn-quit");
 btnQuit.addEventListener("click", returnHome);
 
-//get home section
+// Get home section
 let homeSection = document.getElementById("home-section");
 
-//get quiz section
+// Get quiz section
 let quizSection = document.getElementById("quiz-section");
 
-//get results section
+// Get results section
 let resultsSection = document.getElementById("results-section");
 
-//get modal
+// Get modal
 let modalFeedback = document.getElementById('modal-feedback');
 
 // Get the <span> element that closes the modal
 let span = document.getElementsByClassName("close")[0];
 
-//Get total number of questions in the quiz
+// Get total number of questions in the quiz
 let  totalQuestions = document.getElementById("total-questions");
 totalQuestions.innerHTML = questions.length;
 
@@ -53,7 +55,7 @@ totalQuestions.innerHTML = questions.length;
 
 
 /**
- * Function to render question
+ * Function to render question, called when user is taken to game area
  */
 function displayQuestion() {
     // display car logo image
@@ -73,7 +75,9 @@ function displayQuestion() {
 
 
 /**
- * Function to check user answer
+ * Function to check user answer against the correct answer, displays modal with
+ * feedback and  increments score.
+ * Called when user clicks on the answer button
  */
 function checkAnswer(userAnswer) {
     if (userAnswer == questions[currentQuestion].correct){
@@ -101,7 +105,8 @@ function nextQuestion() {
 
 
 /**
- * Function to display results
+ * Function to display results and to provide options to restart the quez or return
+ * to home section. Called with the last question of the quiz is answered.
  */
 function displayResults() {
     quizSection.style.display = 'none';
@@ -118,29 +123,36 @@ function displayResults() {
 span.onclick = function() {
     modalFeedback.style.display = "none";
     nextQuestion();
-  }
-  
-  // When the user clicks anywhere outside of the modal, close it
-  window.onclick = function(event) {
+  };
+
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
     if (event.target == modalFeedback) {
         modalFeedback.style.display = "none";
         nextQuestion();
     }
-  }
+  };
 
 
-  function showModal() {
+/**
+ * Function to open the modal with feedback.
+ * Renders the logo image and displays the correct answer.
+ * Called when user's answer is checked against the correct answer.
+ */
+function showModal() {
     modalFeedback.style.display = "block";
     let answerImg = document.getElementById("answer-img");
-    answerImg.innerHTML = "<img src="+ questions[currentQuestion].questionImg +">";
+    answerImg.innerHTML = "<img src=" + questions[currentQuestion].questionImg + ">";
     let keys = Object.keys(questions[currentQuestion]);
     keys.forEach((key) => {
         if (key == questions[currentQuestion].correct) {
-            let correctAnswer= document.getElementById("correctAnswer");
+            let correctAnswer = document.getElementById("correctAnswer");
             correctAnswer.innerHTML = questions[currentQuestion][key];
         }
-    })
+    });
 }
+
 
 /**
  * Function to change the color of modal header and render message
@@ -214,6 +226,8 @@ function setTheme(themeName) {
     localStorage.setItem('theme', themeName);
     document.documentElement.className = themeName;
 }
+
+
 // function to toggle between light and dark theme
 function toggleTheme() {
    if (localStorage.getItem('theme') === 'theme-dark'){
@@ -222,6 +236,8 @@ function toggleTheme() {
        setTheme('theme-dark');
    }
 }
+
+
 // Immediately invoked function to set the theme on initial load
 (function () {
    if (localStorage.getItem('theme') === 'theme-dark') {
