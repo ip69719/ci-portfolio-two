@@ -10,6 +10,20 @@
     border:0;
 }
 
+/* CSS variables for light theme */
+.theme-light {
+    --background-img: url("../images/background-light.jpg");
+    --color-background: white;
+    --color-primary: black;
+}
+
+/* CSS variables for dark theme */
+.theme-dark {
+    --background-img: url("../images/background-dark.jpg");
+    --color-background: black;
+    --color-primary: white;
+}
+
 body {
     background-color: black;
     background-image:url("../images/background-dark.jpg");
