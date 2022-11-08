@@ -83,8 +83,7 @@ function checkAnswer(userAnswer) {
     } else {
         showModal();
         IsWrong();
-    }
-    nextQuestion(); 
+    }  
 }
 
 
@@ -118,12 +117,14 @@ function displayResults() {
 // When the user clicks on <span> (x), close the modal
 span.onclick = function() {
     modalFeedback.style.display = "none";
+    nextQuestion();
   }
   
   // When the user clicks anywhere outside of the modal, close it
   window.onclick = function(event) {
     if (event.target == modalFeedback) {
         modalFeedback.style.display = "none";
+        nextQuestion();
     }
   }
 
