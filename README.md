@@ -15,6 +15,8 @@
 
 ### Design choices
 
+#### Colour Scheme
+
 #### Typography
 * Arvo font was selected for strong characters and high readability.
 
@@ -97,5 +99,6 @@ The project was deployed to GitHub Pages using the following steps:
 * Learned how to loop through objects keys and values in Javascript from [this](https://flexiple.com/javascript/loop-through-object-javascript/) Flexiple tutorial.
 * Learned how to create a Modal Box with CSS and JavaScript and adopted code from this [W3Schools](https://www.w3schools.com/howto/howto_css_modals.asp) tutorial.
 * The CSS code used to animate buttons was taken from [Federico Dossena's](https://fdossena.com/?p=html5cool/buttons/i.frag) site (9IDLE AMINATION: BOUNCY BOUNCY section).
+* The CSS and JavaScript code for dark and light theme switcher was taken from [this](https://medium.com/@haxzie/dark-and-light-theme-switcher-using-css-variables-and-pure-javascript-zocada-dd0059d72fa2) article written by Musthaq Ahamad.
 
 ### Acknowledgements
