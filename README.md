@@ -92,6 +92,7 @@ The project was deployed to GitHub Pages using the following steps:
 ### Media
 
 * Images of cars were sourced from [Shutterstock](https://www.shutterstock.com/home).
+* Images of car logos were sourced from [CarLogos.org](https://www.carlogos.org/car-brands/) and were used in this project for educational purposes only.
 
 ### Code
 
@@ -102,3 +103,5 @@ The project was deployed to GitHub Pages using the following steps:
 * The CSS and JavaScript code for dark and light theme switcher was taken from [this](https://medium.com/@haxzie/dark-and-light-theme-switcher-using-css-variables-and-pure-javascript-zocada-dd0059d72fa2) article written by Musthaq Ahamad.
 
 ### Acknowledgements
+
+* Special thanks to my Mentor [Malia Havlicek](https://github.com/maliahavlicek) for support and guidance during this project.
