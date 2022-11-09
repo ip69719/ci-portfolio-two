@@ -4,7 +4,7 @@
 
 ## Project Overview
 
-![]()
+![](https://github.com/ip69719/ci-portfolio-two/blob/main/assets/docs/responsive_image.png)
 
 
 ## UX
