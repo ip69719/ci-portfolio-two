@@ -15,6 +15,7 @@
     --background-img: url("../images/background-light.jpg");
     --color-background: white;
     --color-primary: black;
+    --color-btn-start: #005C37;
     --btn-border: 1px solid black;
 }
 
@@ -23,6 +24,7 @@
     --background-img: url("../images/background-dark.jpg");
     --color-background: black;
     --color-primary: white;
+    --color-btn-start: #00B36B;
     --btn-border: 1px solid white;
 }
 
@@ -98,7 +100,7 @@ p {
 }
 
 #btn-start {
-    color: #00B36B;
+    color: var(--color-btn-start);
 }
 
 
