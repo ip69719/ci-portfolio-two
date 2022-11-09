@@ -64,7 +64,8 @@
 
 ### Defect Tracking
 
-* Issues are tracked on [GitHub](https://github.com/ip69719/ci-portfolio-two/issues).
+* Issues are documented and tracked on [GitHub](https://github.com/ip69719/ci-portfolio-two/issues).
+* The remaining open issues were not prioritised because these a visual defects only that do not impact functionality.
 
 ## Deployment
 
