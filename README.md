@@ -52,11 +52,11 @@
 
   * The W3C Markup Validator, W3C CSS Validator Services and JShint were used to validate the project to ensure there were no syntax errors.
     * W3C Markup Validator - [Results](https://github.com/ip69719/ci-portfolio-two/blob/main/assets/docs/testing/validation/w3c_markup_validation.pdf)
-    *  * Empty heading warning was ignored because modal header is inserted by JavaScript code.
+        * Empty heading warning was ignored because modal header is inserted by JavaScript code.
     * W3C CSS Validator - [Results]():
     * JShint - [Results](https://github.com/ip69719/ci-portfolio-two/blob/main/assets/docs/testing/validation/jshint_js_validation.pdf):
-    *  * Undefined variables warning was ignored because the questions are stored in a separate js file.
-    *  * Unused variables warning was ignored because functions are called through onClick in HTML element.
+        * Undefined variables warning was ignored because the questions are stored in a separate js file.
+        * Unused variables warning was ignored because functions are called through onClick in HTML element.
 
 ### Manual Testing
 
