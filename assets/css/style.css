@@ -14,6 +14,7 @@
 .theme-light {
     --background-img: url("../images/background-light.jpg");
     --color-background: white;
+    --color-bg-modal: white;
     --color-primary: black;
     --color-btn-start: #005C37;
     --btn-border: 1px solid black;
@@ -23,6 +24,7 @@
 .theme-dark {
     --background-img: url("../images/background-dark.jpg");
     --color-background: black;
+    --color-bg-modal: #454a4f;
     --color-primary: white;
     --color-btn-start: #00B36B;
     --btn-border: 1px solid white;
@@ -173,7 +175,7 @@ Adopted code from this example https://www.w3schools.com/howto/tryit.asp?filenam
 /* Modal Box with CSS and JavaScript - W3Schools tutorial */
 .modal-content {
     position: relative;
-    background-color: #454a4f;
+    background-color: var(--color-bg-modal);
     margin: auto;
     padding: 0;
     border: 1px solid #888;
