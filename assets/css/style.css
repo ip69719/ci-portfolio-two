@@ -15,6 +15,7 @@
     --background-img: url("../images/background-light.jpg");
     --color-background: white;
     --color-primary: black;
+    --btn-border: 1px solid black;
 }
 
 /* CSS variables for dark theme */
@@ -22,6 +23,7 @@
     --background-img: url("../images/background-dark.jpg");
     --color-background: black;
     --color-primary: white;
+    --btn-border: 1px solid white;
 }
 
 body {
@@ -66,7 +68,7 @@ h2 {
 
 /* buttons */
 .btn {
-    border: 1px solid white;
+    border: var(--btn-border);
     border-radius: 4px;
     font-size: 1rem;
     letter-spacing: 2px;
