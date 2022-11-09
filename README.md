@@ -42,7 +42,7 @@
 * [TinyPNG](https://tinypng.com/) was used to optimise images for the web.
 * [WebAIM](https://webaim.org/resources/contrastchecker/) was used for checking the colour contrast.
 * [Git](https://git-scm.com/) was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
-* [GitHub](https://github.com/) is used to store the projects code after being pushed from Git.
+* [GitHub](https://github.com/) is used to store the projects code after being pushed from Git and track issues.
 
 
 ## Testing
