@@ -49,7 +49,7 @@ Single HTML page with three section and interactive elements:
 * Quiz section of the page displays quiz question with a car logo image. The User is expected to select an answer by clicking on one of the three buttons which contain names of car companies as answer options.
 * The User's answer is then checked against the correct answer. A modal popup provides feedback to the User for every answer. The color of the modal header and the message content are different depending on whether the User's answer is correct or wrong.
 * Once modal is closed (by clicking on X or anywhere outside of the modal), the next question is displayed.
-* The user is presented with an overall result as soon as the last question is answered. The results section of the page contains two buttons. The RESTART button invites the User to retake the quiz. The QUIT button returns the User to home section of the page.
+* The user is presented with an overall result as soon as the last question is answered. The results section of the page contains two buttons. The REPLAY button invites the User to retake the quiz. The QUIT button returns the User to home section of the page.
 
 ### Features Left to Implement
 
@@ -99,7 +99,7 @@ Single HTML page with three section and interactive elements:
 * Validated that the modal closes when the user clicks anywhere outside of the modal.
 * Validated that the results section is displayed showing an overall score as soon as the last question is answered.
 * Validated that the correct answers are accurately tracked and displayed at the end of the quiz.
-* Validated that the quiz restarts/quiz question is displayed when RESTART button is clicked.
+* Validated that the quiz restarts/quiz question is displayed when REPLAY button is clicked.
 * Validated that the User is taken back to home section when QUIT button is clicked.
 
 ### User Story testing
