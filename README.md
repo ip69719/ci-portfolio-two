@@ -10,6 +10,9 @@
 ## UX
 
 ### Project Goals
+The primary Project Goal is to create a car logo quiz that is suitable for all ages.
+
+The target audience are people who are interested to learn car brand logos.
 
 ### User Stories
 
