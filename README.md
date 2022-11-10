@@ -68,7 +68,7 @@ The target audience are people who are interested to learn car brand logos.
 
 ### Validation Testing
 
-  * The W3C Markup Validator, W3C CSS Validator Services and JShint were used to validate the project to ensure there were no syntax errors.
+* The W3C Markup Validator, W3C CSS Validator Services and JShint were used to validate the project to ensure there were no syntax errors.
     * W3C Markup Validator - [Results](https://github.com/ip69719/ci-portfolio-two/blob/main/assets/docs/testing/validation/w3c_markup_validation.pdf):
         * Empty heading warning was ignored because modal header is inserted by JavaScript code.
     * W3C CSS Validator - [Results](https://github.com/ip69719/ci-portfolio-two/blob/main/assets/docs/testing/validation/w3c_css_validation.pdf)
@@ -77,6 +77,21 @@ The target audience are people who are interested to learn car brand logos.
         * Unused variables warning was ignored because functions are called through onClick in HTML element.
 
 ### Manual Testing
+
+* Validated that when SWITCH THEME is clicked the background and colors change to defined alternatives for dark and light themes. One issue was identified and is documented [here](https://github.com/ip69719/ci-portfolio-two/issues/12).
+* All Foreground and background color combinations were tested using [WebAIM](https://webaim.org/resources/contrastchecker/) online contrast checker tool.
+* Validated that the User is taken to quiz area when START button is clicked.
+* Validated that the correct answer is presented in the answer choices only once.
+* Validated that every question contains answer option with the correct answer.
+* Validated that modal with the expected message is displayed if user clicks on the correct answer botton.
+* Validated that modal with the expected message is displayed if user clicks on the wrong answer botton.
+* Validated that the modal closes when the user clicks on span (x) element.
+* Validated that the modal closes when the user clicks anywhere outside of the modal.
+* Validated that the results section is displayed showing an overall score as soon as the last question is answered.
+* Validated that the correct answers are accurately tracked and displayed at the end of the quiz.
+* Validated that the quiz restarts/quiz question is displayed when RESTART button is clicked.
+* Validated that the User is taken back to home section when QUIT button is clicked.
+
 
 ### User Story testing
 
