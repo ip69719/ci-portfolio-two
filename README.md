@@ -10,11 +10,17 @@
 ## UX
 
 ### Project Goals
+
 The primary Project Goal is to create a car logo quiz that is suitable for all ages.
 
 The target audience are people who are interested to learn car brand logos.
 
 ### User Stories
+As a User, I want:
+* The ability to view a short introduction, so I can understand what the quiz is about.
+* The ability to easily navigate throughout the site.
+* Feedback when I select an answer letting me know if I selected correct answer.
+* Feedback at the end of the quiz so that I know what my overall score is.
 
 ### Design choices
 
@@ -33,15 +39,16 @@ The target audience are people who are interested to learn car brand logos.
 ## Features
 
 ### Existing Features
-* Single HTML page with three section and interactive elements:
-    * Home section contains a brief introduction about the quiz and invites the User to select between the dark and light theme. The background and the color scheme change once the SWITCH THEME button in clicked. The second botton hides the home section of the page and takes the User to the Quiz area.
-    * Quiz section of the page displays quiz question with a car logo image. The User is expected to select an answer by clicking on one of the three buttons which contain names of car companies.
-    * The User's answer is then checked against the correct answer. Modal provides feedback to the User for every answer. The color of the modal header and the message content are different depending on whether the User's answer is correct or wrong.
-    * Once modal is closed (by clicking on X or anywhere outside of the modal), the next question is displayed.
-    * The user is presented with an overall results as soon as the last question is answered. The results section of the page contains two button elements. RESTART button invites the User to retake the quiz. QUIT button returns the User to home section of the page.
 
+Single HTML page with three section and interactive elements:
+* Home section contains a brief introduction about the quiz and invites the User to select between the dark and light theme. The background and the color scheme change once the SWITCH THEME button in clicked. The second botton hides the home section of the page and takes the User to the Quiz area.
+* Quiz section of the page displays quiz question with a car logo image. The User is expected to select an answer by clicking on one of the three buttons which contain names of car companies.
+* The User's answer is then checked against the correct answer. Modal provides feedback to the User for every answer. The color of the modal header and the message content are different depending on whether the User's answer is correct or wrong.
+* Once modal is closed (by clicking on X or anywhere outside of the modal), the next question is displayed.
+* The user is presented with an overall results as soon as the last question is answered. The results section of the page contains two button elements. RESTART button invites the User to retake the quiz. QUIT button returns the User to home section of the page.
 
 ### Features Left to Implement
+
 * The theme switcher button is located in home section of the page. Home section is hidden when user is taken to the quiz area. The user has no option to change the theme unless the quiz has ended. In the next release i would like to make the theme switcher visible in every section, so that selection can be made at any stage.
 * A good feature would be to display questions in a random order every time user takes the quiz. This will improve the presentation of the quiz by providing a fresh look to returning users.
 * Currently the game questions are hardcoded. This is not ideal and other solutions will be considered in future releases.
@@ -93,13 +100,25 @@ The target audience are people who are interested to learn car brand logos.
 * Validated that the quiz restarts/quiz question is displayed when RESTART button is clicked.
 * Validated that the User is taken back to home section when QUIT button is clicked.
 
-
 ### User Story testing
+
+* As a User, I want the ability to view a short introduction, so I can understand what the quiz is about.
+    * As soon as the page is loaded the User is presented with a brief introduction to the quiz.
+
+* As a User, I want the ability to easily navigate throughout the site.
+    * Home section and the results section have only two large buttons allowing the User to navigate easily between the sections of the page.
+
+* As a User, I want feedback when I select an answer letting me know if I selected correct answer.
+    * The User is presented with a pop up modal as soon as an answer is selected providing the User with an instant feedback.
+
+* As a User, I want feedback at the end of the quiz so that I know what my overall score is.
+    * The user is presented with an overall quiz results as soon as the last question is answered.
 
 ### Defect Tracking
 
 * Issues are documented and tracked on [GitHub](https://github.com/ip69719/ci-portfolio-two/issues).
 * The remaining open issues were not prioritised because these a visual defects only that do not impact functionality.
+
 
 ## Deployment
 
