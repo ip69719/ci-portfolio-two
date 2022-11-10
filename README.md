@@ -32,6 +32,14 @@ The target audience are people who are interested to learn car brand logos.
 
 ## Features
 
+* Single HTML page with three section and interactive elements:
+    * Home section contains a brief introduction about the quiz and invites the User to select between the dark and light theme. The background and the color scheme change once the SWITCH THEME button in clicked. The second botton hides the home section of the page and takes the User to the Quiz area.
+    * Quiz section of the page displays quiz question with a car logo image. The User is expected to select an answer by clicking on one of the three buttons which contain names of car companies.
+    * The User's answer is then checked against the correct answer. Modal provides feedback to the User for every answer. The color of the modal header and the message content are different depending on whether the User's answer is correct or wrong.
+    * Once modal is closed (by clicking on X or anywhere outside of the modal), the next question is displayed.
+    * The user is presented with an overall results as soon as the last question is answered. The results section of the page contains two button elements. RESTART button invites the User to retake the quiz. QUIT button returns the User to home section of the page.
+
+
 ### Features Left to Implement
 * The theme switcher button is located in home section of the page. Home section is hidden when user is taken to the quiz area. The user has no option to change the theme unless the quiz has ended. In the next release i would like to make the theme switcher visible in every section, so that selection can be made at any stage.
 * A good feature would be to display questions in a random order every time user takes the quiz. This will improve the presentation of the quiz by providing a fresh look to returning users.
