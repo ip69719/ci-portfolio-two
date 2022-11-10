@@ -151,6 +151,8 @@ The project was deployed to GitHub Pages using the following steps:
 
 ## Credits
 
+* Content of READ.md was written with reference to [this](https://github.com/maliahavlicek/ci_mentor_insights/blob/main/PORTFOLIO_2_JAVASCRIPT_ESSENTIALS.md) template compiled by [Malia Havlicek](https://github.com/maliahavlicek). 
+
 ### Content
 
 ### Media
