@@ -16,11 +16,13 @@
 ### Design choices
 
 #### Colour Scheme
+* Colors were selected with accessibility in mind ensuring that high color contrast is maintained.
 
 #### Typography
 * Arvo font was selected for strong characters and high readability.
 
 #### Images
+* Logo images with transparent background work well on both dark and light backgrounds. 
 
 ### Wireframes
 
