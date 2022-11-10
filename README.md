@@ -29,6 +29,11 @@
 
 ## Features
 
+### Features Left to Implement
+* The theme switcher button is located in home section of the page. Home section is hidden when user is taken to the quiz area. The user has no option to change the theme unless the quiz has ended. In the next release i would like to make the theme switcher visible in every section, so that selection can be made at any stage.
+* A good feature would be to display questions in a random order every time user takes the quiz. This will improve the presentation of the quiz by providing a fresh look to returning users.
+* Currently the game questions are hardcoded. This is not ideal and other solutions will be considered in future releases.
+
 
 ## Technologies used
 
