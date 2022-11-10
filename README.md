@@ -32,6 +32,7 @@ The target audience are people who are interested to learn car brand logos.
 
 ## Features
 
+### Existing Features
 * Single HTML page with three section and interactive elements:
     * Home section contains a brief introduction about the quiz and invites the User to select between the dark and light theme. The background and the color scheme change once the SWITCH THEME button in clicked. The second botton hides the home section of the page and takes the User to the Quiz area.
     * Quiz section of the page displays quiz question with a car logo image. The User is expected to select an answer by clicking on one of the three buttons which contain names of car companies.
