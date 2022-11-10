@@ -12,47 +12,50 @@
 ### Project Goals
 
 The primary Project Goal is to create a car logo quiz that is suitable for all ages.
-
 The target audience are people who are interested to learn car brand logos.
 
 ### User Stories
+
 As a User, I want:
 * The ability to view a short introduction, so I can understand what the quiz is about.
 * The ability to easily navigate throughout the site.
-* Feedback when I select an answer letting me know if I selected correct answer.
+* Feedback when I select an answer letting me know if I selected the correct answer.
 * Feedback at the end of the quiz so that I know what my overall score is.
 
 ### Design choices
 
 #### Colour Scheme
+
 * Colors were selected with accessibility in mind ensuring that high color contrast is maintained.
 
 #### Typography
+
 * Arvo font was selected for strong characters and high readability.
 
 #### Images
+
 * Logo images with transparent background work well on both dark and light backgrounds. 
 
 ### Wireframes
 
+* [Wireframes ]()
 
 ## Features
 
 ### Existing Features
 
 Single HTML page with three section and interactive elements:
-* Home section contains a brief introduction about the quiz and invites the User to select between the dark and light theme. The background and the color scheme change once the SWITCH THEME button in clicked. The second botton hides the home section of the page and takes the User to the Quiz area.
-* Quiz section of the page displays quiz question with a car logo image. The User is expected to select an answer by clicking on one of the three buttons which contain names of car companies.
-* The User's answer is then checked against the correct answer. Modal provides feedback to the User for every answer. The color of the modal header and the message content are different depending on whether the User's answer is correct or wrong.
+* Home section contains a brief introduction about the quiz and invites the User to choose between the dark and light theme. The background and the color scheme change once the SWITCH THEME button in clicked. The second botton hides the home section of the page and takes the User to the Quiz area.
+* Quiz section of the page displays quiz question with a car logo image. The User is expected to select an answer by clicking on one of the three buttons which contain names of car companies as answer options.
+* The User's answer is then checked against the correct answer. A modal popup provides feedback to the User for every answer. The color of the modal header and the message content are different depending on whether the User's answer is correct or wrong.
 * Once modal is closed (by clicking on X or anywhere outside of the modal), the next question is displayed.
-* The user is presented with an overall results as soon as the last question is answered. The results section of the page contains two button elements. RESTART button invites the User to retake the quiz. QUIT button returns the User to home section of the page.
+* The user is presented with an overall result as soon as the last question is answered. The results section of the page contains two buttons. The RESTART button invites the User to retake the quiz. The QUIT button returns the User to home section of the page.
 
 ### Features Left to Implement
 
-* The theme switcher button is located in home section of the page. Home section is hidden when user is taken to the quiz area. The user has no option to change the theme unless the quiz has ended. In the next release i would like to make the theme switcher visible in every section, so that selection can be made at any stage.
 * A good feature would be to display questions in a random order every time user takes the quiz. This will improve the presentation of the quiz by providing a fresh look to returning users.
+* The theme switcher button is located in home section of the page. Home section is hidden when user is taken to the quiz area. The user has no option to change the theme unless the quiz has ended. In the next release i would like to make the theme switcher visible in every section, so that the selection can be made at any stage.
 * Currently the game questions are hardcoded. This is not ideal and other solutions will be considered in future releases.
-
 
 ## Technologies used
 
@@ -69,8 +72,7 @@ Single HTML page with three section and interactive elements:
 * [TinyPNG](https://tinypng.com/) was used to optimise images for the web.
 * [WebAIM](https://webaim.org/resources/contrastchecker/) was used for checking the colour contrast.
 * [Git](https://git-scm.com/) was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
-* [GitHub](https://github.com/) is used to store the projects code after being pushed from Git and track issues.
-
+* [GitHub](https://github.com/) is used to store the project code after being pushed from Git and track issues.
 
 ## Testing
 
@@ -81,7 +83,7 @@ Single HTML page with three section and interactive elements:
         * Empty heading warning was ignored because modal header is inserted by JavaScript code.
     * W3C CSS Validator - [Results](https://github.com/ip69719/ci-portfolio-two/blob/main/assets/docs/testing/validation/w3c_css_validation.pdf)
     * JShint - [Results](https://github.com/ip69719/ci-portfolio-two/blob/main/assets/docs/testing/validation/jshint_js_validation.pdf):
-        * Undefined variables warning was ignored because the questions are stored in a separate js file.
+        * Undefined variables warning was ignored because the questions are stored in a separate JavaScript file.
         * Unused variables warning was ignored because functions are called through onClick in HTML element.
 
 ### Manual Testing
@@ -112,13 +114,12 @@ Single HTML page with three section and interactive elements:
     * The User is presented with a pop up modal as soon as an answer is selected providing the User with an instant feedback.
 
 * As a User, I want feedback at the end of the quiz so that I know what my overall score is.
-    * The user is presented with an overall quiz results as soon as the last question is answered.
+    * Overall feedback is shown to the user as soon as the last question is answered.
 
 ### Defect Tracking
 
 * Issues are documented and tracked on [GitHub](https://github.com/ip69719/ci-portfolio-two/issues).
 * The remaining open issues were not prioritised because these a visual defects only that do not impact functionality.
-
 
 ## Deployment
 
