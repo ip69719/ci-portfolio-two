@@ -38,7 +38,7 @@ As a User, I want:
 
 ### Wireframes
 
-* [Wireframes ]()
+* [Wireframes ](https://github.com/ip69719/ci-portfolio-two/tree/main/assets/docs/wireframes)
 
 ## Features
 
